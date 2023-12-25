@@ -9,3 +9,32 @@ body
     display: flex
     justify-content: center
     align-items: center
+    background-color: #4553a5
+    height: 100vh
+
+.empty
+    height: 150px
+    width: 150px
+    margin: 10px
+    border: solid 3px #000
+    background-color: #fff
+
+.fill   
+    background-image: url('https://images.unsplash.com/photo-1633999999148-8066bff54cab?w=420&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXRodW1ibmFpbHx8OVMzRXU1NFBXdlV8fGVufDB8fHx8fA%3D%3D')
+    background-size: cover
+    height: 145px
+    width: 145px
+    cursor: pointer
+
+.hold
+    border: solid 5px #ccc
+
+.hovered
+    background-color: #333
+    border-color: #fff   
+    border-style: dashed 
+
+// Media
+@media(max-width: 800px)
+    body
+        flex-direction: column
